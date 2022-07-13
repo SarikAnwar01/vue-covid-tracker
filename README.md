@@ -1,19 +1,29 @@
-# vue-covid-tracker
+# Covid-19 Tracker 
 
-## Project setup
-```
-npm install
+This is a Covid-19 Tracker web app made with 
+
+
+## Tech Stack
+
+**Client:** Vue, TailwindCSS
+
+
+
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET  'https://api.covid19api.com/summary'
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **None** |
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
